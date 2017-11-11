@@ -1,0 +1,101 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	background-image: none;
+	background-color: #333333;
+}
+
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 3em;
+	color: #D7D6D9;
+	padding: 20px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.8em;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #7A309C;
+	letter-spacing: .1em;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	color: #D7D6D9;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	background-color: #9C0C05;
+	padding: 20px;
+}
+
+
+
+.rules-content {
+	background-color: #D7D6D9;
+	width: 60%;
+	margin: 0 auto;
+	padding: 40px 100px;
+}
+
+
+.rules-content li{
+	list-style: square;
+	margin-bottom: 10px;
+}
+
+#random-number,
+.score,
+.game-counter {
+	float: left;
+	min-height: 100px;
+	width: 47%;
+}
+
+.score-content {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#random-number {
+	background-color: #9C0C05;
+	padding: 20px;
+	text-align: center;
+}
+
+.score {
+	text-align: center;
+	background-color: #7A309C;
+	padding: 20px;
+}
+
+.game-counter {
+	display: inline;
+}
+
+.crystal-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.crystal {
+	float: left;
+	width: 25%;
+}
+
+
+.clearfix {
+	content: "";
+	display: block;
+	clear: both;
+}
